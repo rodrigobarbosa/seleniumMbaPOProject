@@ -147,7 +147,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/tmp/testng-eclipse--752897073/testng-customsuite.xml</span>
+            <span class="header-content">/tmp/testng-eclipse--1105411525/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -156,6 +156,13 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;com.thiago.core.InvokedMethodListener&quot;/&gt;
+      &lt;class name=&quot;com.thiago.page.PageGuruLogin&quot;/&gt;
+      &lt;class name=&quot;com.thiago.core.CorePage&quot;/&gt;
+      &lt;class name=&quot;com.thiago.core.OptionsManager&quot;/&gt;
+      &lt;class name=&quot;Example&quot;/&gt;
+      &lt;class name=&quot;com.thiago.driver.TLDriverFactory&quot;/&gt;
+      &lt;class name=&quot;com.thiago.page.PageGoogle&quot;/&gt;
       &lt;class name=&quot;com.thiago.teste.GoogleSearchTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
@@ -170,7 +177,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (1 class)</span>
+                <span class="test-name">Default test (8 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -200,16 +207,16 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'google0')
 data.setCell(0, 2, 'com.thiago.teste.GoogleSearchTest')
-data.setCell(0, 3, 3831);
+data.setCell(0, 3, 6270);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'google1')
 data.setCell(1, 2, 'com.thiago.teste.GoogleSearchTest')
-data.setCell(1, 3, 2251);
+data.setCell(1, 3, 4647);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <span class="suite-total-time">Total running time: 10 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -242,7 +249,7 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">google1</span>
-                <span class="method-start">4136 ms</span>
+                <span class="method-start">6506 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

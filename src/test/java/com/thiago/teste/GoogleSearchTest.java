@@ -19,4 +19,5 @@ public class GoogleSearchTest{
     	new PageGoogle().openPage(PageGoogle.class, "http://www.google.com").buscarNoGoogle("selenium");
     	new PageGoogle().buscarNoGoogle("oi");
     }
+
 }
